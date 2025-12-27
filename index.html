@@ -1,0 +1,14 @@
+<html> 
+    <body>
+        <h2> Convert </h2>
+        <p id ="result"></p>
+        <script>
+            async function add (a,b) {
+                let response  = await a+b;
+                display(response);
+            }
+            function display(some) {
+                document.getElementByld("result").innerhtml =  
+                some;
+            }
+            add(5,20);
